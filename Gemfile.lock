@@ -71,8 +71,8 @@ GEM
       activerecord (>= 3.2, < 7.0)
       rake (>= 10.4, < 14.0)
     ast (2.4.1)
-    autoprefixer-rails (10.0.3.0)
-      execjs
+    autoprefixer-rails (10.2.5.0)
+      execjs (< 2.8.0)
     aws-eventstream (1.1.0)
     aws-partitions (1.397.0)
     aws-sdk-core (3.109.3)
@@ -271,7 +271,9 @@ GEM
       mimemagic (~> 0.3.2)
     maxminddb (0.1.22)
     method_source (1.0.0)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.11.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
